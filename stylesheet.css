@@ -44,7 +44,7 @@ body {
 }
 
 h1 {
-  color: lightgray;
+  color: white;
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 
@@ -66,18 +66,21 @@ img {
 h3 {
   color: #90DFA8;
 }
+h5{
+  color:#897678
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: thistle;
+  background-color: #fed9ec;
 }
 
 li {
   float: left;
-  border-right: 1px solid;
+  
 }
 
 li a {
@@ -100,6 +103,12 @@ li a:hover {
 }
 .GFG {
   font-size: 50px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: lightpink;
+}
+a{
+  color:#a2a3ff;
+}
+.subpageheader{
+  color:#a2a3ff;
 }
