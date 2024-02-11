@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+  background-color: cornsilk;
+}
+h1 {
+  color: darkgrey;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+h2 {
+  color: #67ADEC;
+}
+p {
+  color: lightpink;
+  font-size: 17px;
+}
+img {
+  border: 3px solid pink;
+}
+h3 {
+  color: #90DFA8;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: thistle;
+}
+li {
+  float: left;
+  boarder-right: 1px solid;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+li a:hover {
+  background-color: darksalmon;
+}
+.active {
+  background-color: darkgrey;
+}
