@@ -15,7 +15,8 @@ body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 40px
+  padding: 20px 40px;
+
 }
 
 .header {
@@ -37,6 +38,7 @@ body {
 }
 
 .card {
+  
   background-color: #fed9ec;
   padding: 20px;
   margin-top: 20px;
@@ -121,9 +123,11 @@ li a:hover {
 }
 
 .GFG {
-  font-size: 50px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: lightpink;
+  font-size: 85px;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color:#fed9ec;
+  color: rgb(255, 255, 255);
+  
 }
 
 a {
@@ -148,4 +152,9 @@ img.book {
 ::-webkit-scrollbar-thumb {
   background-image: url(images/strawberrysidebar.png);
   border-radius: 16px;
+}
+#borderimg{
+  border:10px solid transparent;
+  padding:15px;
+  border-image: url(images/border.png);
 }
